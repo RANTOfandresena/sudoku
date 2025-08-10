@@ -75,9 +75,7 @@ for m in range(70):
 # affichage(a)
 k=0
 while 0 in [j for i in a for j in i]:
-  nb=None
-  if(nb is None):
-    nb,x,y=ajoutCas1(a)
+  nb,x,y=ajoutCas1(a)
   if nb is not None:
     a[y][x]=nb
   k+=1
@@ -97,4 +95,5 @@ affichage(a)
 # ----------------------
 #  6 1 9 | 5 3 7 | 4 2 8
 #  3 4 5 | 9 8 2 | 6 7 1
+
 #  8 7 2 | 6 1 4 | 9 5 3
